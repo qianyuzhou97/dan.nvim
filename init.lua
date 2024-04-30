@@ -237,6 +237,11 @@ require('lazy').setup({
   --  This is equivalent to:
   --    require('Comment').setup({})
 
+  -- Vim Training
+  {
+    "ThePrimeagen/vim-be-good",
+    lazy = false,
+  },
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
